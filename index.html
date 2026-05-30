@@ -6,8 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tailwindtemplate</title>
   </head>
-  <body>
-    <div class="bg-pink-500">oi galera :D</div>
+  <body class="bg-cyan-950 ">
+    <nav class="p-7 justify-between flex-row flex min-w-screen border-black   border-2 border-solid h-20 bg-linear-to-r from-cyan-950 to-blue-400">
+     <h3 class="font-bold hover:text-white"><a href="#sec1">Início da Carreira</a></h3>
+     <h3 class="font-bold hover:text-white"><a href="#sec2">Conquistas e Títulos</a></h3>
+     <h3 class="font-bold hover:text-white"><a href="">Estilo de Jogo</a></h3>
+    </nav>
+
+    
+    <div id="heroSection" class="p-20 mt-10 flex gap-10 flex-row flex-wrap">
+      <div>
+        <h2 class="font-bold  text-amber-50 text-3xl">Neymar Jr.<br>
+        A Magia do Futebol</h1>
+        <p class="text-blue-300">Conheça a trajetória, os títulos e os momentos inesquecíveis<br>
+        de um dos maiores jogadores da história do futebol brasileiro.</p>
+        <div>
+          <a class="hover:text-amber-400 text-zinc-200" href="">-Assistir highlights</a><br>
+          <a class="hover:text-amber-400 text-zinc-200" href="">-Ver carreira</a>
+        </div>
+      </div>
+      <img src="src/assets/neymar.png" class="rounded-2xl border-white border-2">
+    </div>
+    <div id="sec1" class="ml-28 mr-28 mt-44 flex flex-col gap-20">
+    <h2 class="text-3xl text-amber-50 font-bold">Os Primeiros Passos</h2>
+    <p class="ml-10 text-blue-300">Nascido em Mogi das Cruzes, São Paulo, Neymar demonstrou talento para o futebol desde cedo. Nas categorias de base do Santos, chamou a atenção por sua técnica diferenciada e rapidamente se tornou uma das maiores promessas do esporte brasileiro.</p>
+    </div>
+    <div id="sec2" class="ml-28 mr-28 mt-44 flex flex-col gap-20">
+    <h2 class="text-3xl text-amber-50 font-bold">Uma Trajetória de Sucesso</h2>
+    <p class="ml-10 text-blue-300">Ao longo de sua carreira, Neymar conquistou campeonatos nacionais e internacionais, representando grandes clubes e a Seleção Brasileira. Seu talento o colocou entre os jogadores mais reconhecidos do mundo.</p>
+    </div>
+    <div id="cards" class="mx-14 flex justify-evenly flex-wrap mt-10">
+      <div class="border-solid border-2 border-white w-1/4 min-w-[300px] rounded-2xl overflow-hidden">
+        <img class="w-full h-6/10" src="src/assets/libertadores.jfif">
+        <h3 class="font-bold text-amber-50 mx-3 mt-3">Libertadores</h3>
+        <p class="text-amber-50 mx-7">Conquista histórica que marcou sua passagem pelo Santos e consolidou seu nome no futebol mundial.</p>
+      </div>
+      <div class="border-solid border-2 border-white w-1/4 min-w-[300px] rounded-2xl overflow-hidden">
+        <img class="w-full h-6/10" src="src/assets/Champions.jfif">
+        <h3 class="font-bold text-amber-50 mx-3 mt-3">champions</h3>
+        <p class="text-amber-50 mx-7">Título europeu conquistado após uma campanha memorável ao lado de grandes estrelas do futebol.
+</p>
+      </div>
+      <div class="border-solid border-2 border-white w-1/4 min-w-[300px] rounded-2xl overflow-hidden">
+        <img class="w-full h-6/10" src="src/assets/olimpiadas.jfif">
+        <h3 class="font-bold text-amber-50 mx-3 mt-3">Jogos Olímpicos</h3>
+        <p class="text-amber-50 mx-7">Participação decisiva na conquista da medalha de ouro inédita para o Brasil.</p>
+      </div>
+    </div>
+    <div id="sec2" class="ml-28 mr-28 mt-44 flex flex-col gap-20">
+    <h2 class="text-3xl text-amber-50 font-bold">Criatividade em Campo</h2>
+    <p class="ml-10 text-blue-300">Neymar é reconhecido por seus dribles, velocidade e visão de jogo. Sua capacidade de criar oportunidades e decidir partidas fez dele um dos jogadores mais influentes de sua geração.</p>
+    </div>
+    <div id="cards" class="mx-14 flex justify-evenly flex-wrap mt-10">
+      <div class="border-solid border-2 border-white w-1/4 min-w-[300px] rounded-2xl overflow-hidden">
+        <img class="w-full h-6/10" src="src/assets/dribles.jfif">
+        <h3 class="font-bold text-amber-50 mx-3 mt-3">Dribles</h3>
+        <p class="text-amber-50 mx-7">Movimentos rápidos e criativos que surpreendem adversários.</p>
+      </div>
+      <div class="border-solid border-2 border-white w-1/4 min-w-[300px] rounded-2xl overflow-hidden">
+        <img class="w-full h-6/10" src="src/assets/chute.jfif">
+        <h3 class="font-bold text-amber-50 mx-3 mt-3">Finalização</h3>
+        <p class="text-amber-50 mx-7">Capacidade de marcar gols em diferentes situações de jogo.</p>
+      </div>
+      <div class="border-solid border-2 border-white w-1/4 min-w-[300px] rounded-2xl overflow-hidden">
+        <img class="w-full h-6/10" src="src/assets/passes.jfif">
+        <h3 class="font-bold text-amber-50 mx-3 mt-3">Assistências</h3>
+        <p class="text-amber-50 mx-7">Visão estratégica para criar oportunidades para seus companheiros.</p>
+      </div>
+    </div>
+    <footer class="mx-14 mt-24 text-blue-600">
+      <h1>Neymar Jr.</h1>
+      <p>Celebrando a carreira, as conquistas e o legado de um dos maiores jogadores da história do futebol brasileiro.</p>
+      <hr>
+      <p>© 2026. Projeto educacional sobre Neymar Jr. Todos os direitos de imagens e marcas pertencem aos seus respectivos proprietários.</p>
+    </footer>
   </body>
   <script type="module" src="./src/main.js"></script>
 </html>
